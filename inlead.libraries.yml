@@ -1,0 +1,9 @@
+react_link:
+  js:
+    # Load React and ReactDOM from CDN.
+    https://unpkg.com/react@17/umd/react.development.js: { type: external, minified: true }
+    https://unpkg.com/react-dom@17/umd/react-dom.development.js: { type: external, minified: true }
+    # Load the main js file.
+    js/app.js: {}
+  dependencies:
+    - core/once

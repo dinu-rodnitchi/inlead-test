@@ -1,0 +1,7 @@
+block.settings.react_link_block:
+  type: block_settings
+  label: 'Settings for react link.'
+  mapping:
+    react_link:
+      type: string
+      label: 'The link to display on the react block.'
